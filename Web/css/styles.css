@@ -1,0 +1,279 @@
+body {
+    font-family: "Montserrat", serif;
+margin: 0%;
+}
+
+.main-page {
+    width: 100%;
+    background: linear-gradient(90deg, #444c5c 0%, #e1b16a 100%);
+}
+
+.box-maintext {
+padding-top: 60px;
+padding-left: 60px;
+padding-right: 60px;
+padding-right: 60px;
+padding-bottom: 60px;
+box-sizing: border-box;
+border-radius: 40px;
+background: #fff;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    position: relative;
+}
+
+.hello-text {
+margin-top: 0%;
+margin-bottom: 60px;
+font-weight: 600;
+font-size: 16px;    
+line-height: 150%;
+color: #1b1d1f;
+}
+
+.mainpage-title {
+margin-top: 0;
+margin-bottom: 24px;
+font-weight: 600;
+font-size: 64px;
+line-height: 112%;
+color: #1b1d1f;
+}
+
+.mainpage-maintext {
+margin-top: 0;
+margin-bottom: 32px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+}
+
+.mainpage-button {
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+padding: 12px 24px;
+width: 172px;
+height: 48px;
+background: #ce5a57;
+font-weight: 400;
+font-size: 16px; 
+line-height: 150%;
+}
+
+.goit-logo {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.facts-title {
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;
+color: #1b1d1f;
+margin-bottom: 49px;
+margin-top: 0;
+}    
+
+.facts {
+    padding-top: 21px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+.trezub-facts {
+    margin-bottom: 48px;
+}
+
+.facts-dscrp {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #1b1d1f;
+width: 771px;
+margin: auto;
+margin-top: 0;
+margin-bottom: 13px;
+}
+
+.facts-item {
+    width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.gus-one-title {
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+text-align: center;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 24px;
+}
+
+.gus-one-dscr {
+font-weight: 400;
+font-size: 16px;    
+line-height: 150%;
+text-align: center;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.gus-two-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 24px;
+    }
+    
+    .gus-two-dscr {
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+    .gus-three-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        text-align: center;
+        color: #1b1d1f;
+        margin-top: 0;
+        margin-bottom: 24px;
+        }
+        
+        .gus-three-dscr {
+        font-weight: 400;
+        font-size: 16px;    
+        line-height: 150%;
+        text-align: center;
+        color: #1b1d1f;
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+        
+        .form-cont{
+            width: 100%;
+            padding-top: 80px;
+            padding-bottom: 80px;
+box-sizing: border-box;
+        background: linear-gradient(180deg, #444c5c 0%, #e1b16a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .form {
+background: #fff;
+border-radius: 40px;
+padding-top: 32px;
+padding-right: 60px;
+padding-bottom: 60px;
+padding-left: 60px;
+box-sizing: border-box;
+text-align: center;
+    }
+
+    .form-trezub {
+margin-bottom: 32px;
+    }
+    
+    .form-title {
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+color: #1b1d1f;
+margin-top: 0;
+margin-bottom: 12px;
+    }
+
+    .form-dscr {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+margin-bottom: 12px;
+margin-top: 0;
+    }
+
+    .form-field {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .form-field-label {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #1b1d1f;
+margin-bottom: 8px;
+    }
+
+    .form-field-name {
+        margin-bottom: 24px;
+    }
+.form-input {
+    border: 1px solid #78a5a3;
+border-radius: 8px;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px; 
+line-height: 150%;
+color: #1b1d1f;
+padding-left: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 24px;
+box-sizing: border-box;
+width: 100%;
+}
+
+.form-button {
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+padding: 12px 24px;
+width: 172px;
+height: 48px;
+background: #ce5a57;
+font-weight: 400;
+font-size: 16px; 
+line-height: 150%; 
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
